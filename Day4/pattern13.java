@@ -6,8 +6,8 @@ public class pattern13
 {
     public static void  main(String[] args)
     {
-        Scanner scr = new Scanner(System.in);
-        int n = scr.nextInt();
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
         int one=1;
         int nsp=n-1;
         int x=1;

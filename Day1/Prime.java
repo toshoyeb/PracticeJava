@@ -9,14 +9,21 @@ public class Prime {
         int n = scn.nextInt();
         int div = 2;
         boolean flag = true;
-        while (div <= n - 1) {
-            if (n % div == 0) {
-                System.out.println("Non-Prime Number");
+        while (div <= n - 1)
+        {
+            if (n % div == 0)
+            {
                 flag = false;
             }
             div = div + 1;
         }
-        if (flag == true) System.out.println("Prime Number");
-
+        if (flag)
+        {
+            System.out.println("Prime Number");
+        }
+        else
+        {
+            System.out.println("Non-Prime Number");
+        }
     }
 }
