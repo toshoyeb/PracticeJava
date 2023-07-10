@@ -1,8 +1,7 @@
 package Day9;
 
-import java.net.StandardSocketOptions;
 
-public class FunctionDemo {
+public class abc {
 
     public static void main(String[] args)
     {
@@ -19,4 +18,3 @@ public class FunctionDemo {
     }
 
 }
-w
