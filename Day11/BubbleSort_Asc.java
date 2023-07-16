@@ -40,7 +40,8 @@ public class BubbleSort_Asc {
 
        for (int i = 0; i < unsorted.length - 1; i++) {
            for (int j = 0; j < unsorted.length - 1 - i; j++) {
-               if (unsorted[j] > unsorted[j + 1]) {
+               if (unsorted[j] > unsorted[j + 1])
+               {
                    //All the changes here will be in heap
                    int temp = unsorted[j];
                    unsorted[j] = unsorted[j + 1];

@@ -41,16 +41,16 @@ public class InsertionSort {
     public static void insertionsort(int[] unsorted)
     {
 
-        for (int i = 1; i < unsorted.length - 1; i++)
+        for (int i = 1; i < unsorted.length; i++)
         {
-            int val = unsorted[i];
-            int j = i-1;
-            while(j>=0 && unsorted[j] > val)
+            int current = unsorted[i];
+            int j = i-1; //to track sorted part
+            while(j>=0 &&  current<unsorted[j])
             {
                 unsorted[j+1] = unsorted[j];
                 j--;
             }
-            unsorted[j+1]= val;
+            unsorted[j+1]= current;
         }
 
 

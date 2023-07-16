@@ -5,10 +5,31 @@ import java.util.Scanner;
 public class BinarySearch_asc {
     static Scanner scn = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 // Always take sorted array, here, in ascending order
-        int[] array = {7,14,45,152,252,325,451,2522,4545,6565,9898};
-        System.out.println(BinarySearch(array,451));
+        System.out.println("Size of array?");
+        int n = scn.nextInt();
+
+        int[] array = new int[n];
+        System.out.println("Enter the elements in ascending order for");
+        for (int i = 0; i < array.length; i++) {
+
+            System.out.println("index " + i);
+            array[i] = scn.nextInt();
+        }
+        System.out.print("Enter the target value: ");
+        int target = scn.nextInt();
+
+        int index= BinarySearch(array,target);
+        if (index != -1)
+        {
+            System.out.println("Element found at index: " + index);
+        }
+        else
+        {
+            System.out.println("Element not found");
+        }
 
     }
 
