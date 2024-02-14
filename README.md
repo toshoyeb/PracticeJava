@@ -1,6 +1,6 @@
 # Daily Java Code Showcase
 
-Welcome to the Daily Java Code Showcase repository! Here you will find a collection of Java programs that I create on a daily basis to demonstrate my coding skills.
+Welcome to the Daily Java Code Showcase repository! Here you will find a collection of Java Problems that I soled to improve my coding skills.
 The purpose of this repository is to showcase my consistent commitment to coding and provide a glimpse into my programming abilities.
 
 ## Repository Structure
